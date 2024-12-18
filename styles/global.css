@@ -27,6 +27,12 @@ body {
     color: var(--text-color-primary);
 }
 
+a {
+    font: var(--paragraph);
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
 a:hover {
     color: var(--brand-color-light);
 }

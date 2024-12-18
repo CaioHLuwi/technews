@@ -1,0 +1,11 @@
+#navbar-secondary {
+    padding: 14px 32px;
+    border-top: 1px solid var(--stroke-color);
+    border-bottom: 1px solid var(--stroke-color);
+}
+
+#navbar-secondary ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
