@@ -1,0 +1,18 @@
+#navbar-primary {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    font-family: var(--font-family);
+}
+
+#navbar-primary .menu-item {
+    font: var(--font-heading2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#navbar-primary .logo-brand {
+    font: var(--font-heading1);
+    color: var(--brand-color-light);
+}
