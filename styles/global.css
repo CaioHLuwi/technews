@@ -38,7 +38,11 @@ a:hover {
 }
 
 .tag {
+    display: flex;
+    justify-content: center;
     background-color: var(--brand-color-dark);
     border-radius: 4px;
     padding: 4px 8px;
+    width: 100px;
+    font: var(--paragraph);
 }
