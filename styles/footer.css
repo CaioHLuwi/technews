@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+    font: var(--paragraph);
+    color: var(--text-color-secondary);
+    padding: 32px 26px;
+}
