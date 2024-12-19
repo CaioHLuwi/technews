@@ -20,6 +20,7 @@
     --font-heading3: bold 14px/140% var(--font-family);
     --span: 600 14px/145% var(--font-family);
     --paragraph: 14px/160% var(--font-family);
+    --tag: 12px/140% var(--font-family);
 }
 
 body {
@@ -35,14 +36,4 @@ a {
 
 a:hover {
     color: var(--brand-color-light);
-}
-
-.tag {
-    display: flex;
-    justify-content: center;
-    background-color: var(--brand-color-dark);
-    border-radius: 4px;
-    padding: 4px 8px;
-    width: 100px;
-    font: var(--paragraph);
 }
